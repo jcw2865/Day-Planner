@@ -33,7 +33,7 @@ body {
   .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid white;;
+    border-top: 1px solid gray;;
   }
   
   .hour {
@@ -70,3 +70,11 @@ body {
     transition: all .3s ease-in-out;
   }
   
+  .input {
+    display: flex;
+    padding: 0;
+}
+
+input {
+    width: 100%;
+}
