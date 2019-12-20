@@ -42,7 +42,7 @@ Below are the steps I took to create the project as it is so far. In creating th
 
 ## Testing
 
-Similar to previous projects, after creating variables and functions I would follow them with either a console.log() or alert() of some kind to verify they worked. During my testing I ran into numerous issues involving scope (i.e. declaring variables and functions inside of one another rather than globally). Since this was my first attempt at using JQUERY, I also unintentionally mixed JS and JQUERY lexicon, which was a good learning experience after correcting. 
+Given that the whole point of this project was for users to have their own personal daily planner, I frequentyly referenced the application section inside of the Google Chrome Inspector to verify that the users input was being stored there (and stored in the correct format). Additionally, there was a lot of experimenting with the moment format. Since I used conditional statements to change the colors of the input boxes, I had to create variables that used moment.js but in military time so I could use greater-than/less-than statements. 
 
 ## Deployment
 
@@ -50,11 +50,12 @@ This program can be deployed using most internet browsers via the links in the "
 
 ## Built With
 
-* [VSCode](https://code.visualstudio.com/)
-* [Bootstrap](https://getbootstrap.com/)
-* [W3Schools](https://www.w3schools.com/)
-* [MDN](https://developer.mozilla.org/en-US/)
+* [VSCode](https://code.visualstudio.com/) - The platform I used for developing this project.
+* [Bootstrap](https://getbootstrap.com/) - Used their stylesheet templates.
+* [W3Schools](https://www.w3schools.com/) - Used as a reference tool.
+* [MDN](https://developer.mozilla.org/en-US/) - Used as a reference tool.
 * [GoogleChrome](https://www.google.com/chrome/) - Used for inspector tool and validating the program during development. 
+* [Moments.js](https://momentsjs.com/) - Use their moment.js sheets and functions.
 
 <!-- ## Contributing
 
