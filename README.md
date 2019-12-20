@@ -18,26 +18,27 @@ The deployed project should look like this.
 
 Below is the link to the project repository followed by the link to the live website. 
 
-https://github.com/jcw2865/homework-4
-https://jcw2865.github.io/homework-4/
+https://github.com/jcw2865/homework-5
+
+https://jcw2865.github.io/homework-5/
 
 ### Development
 
-Below are the steps I took to create the project as it is so far. Understanding the project is still incomplete at its current stage, it has still been a very useful exercise. I definitely gained a greater understanding of JS and JQUERY in the process. 
+Below are the steps I took to create the project as it is so far. In creating this project, I attempted to be a little more disciplined in my structuring and labeling with comments. This project did require an extensive amount of research with regards to moment.js and setItem/getItem. 
 
-1. Created index.html, style1.css, questions.js, and script.js. 
+1. Created index.html, style1.css, moment.js, and script.js. 
 
 2. General HTML document structure added to index.html. 
 
-3. Bootstrap styling, style1.css, questions.js, and script.js linked to index.html. 
+3. Linked additional documents and stylesheets to index.html.
 
-4. Variables that I knew I needed were created and console.log'd for verification. 
+4. Developed functionality with the buttons. Verified with click alerts and added variables as needed. 
 
-5. Event listeners created for clicking buttons.
+5. After creating the buttons and verifying their functionality, I focused on the setItem functionality.
 
-6. Loops created inside of event listeners in an attempt to keep my code DRY (and not repeat myself). 
+6. Once I saw that the setItem functions were storing information in the inspector, I created the getItem functions. 
 
-7. From this point on, it was a long road of "plug-and-play": running the code, looking at the inspector feedback, and adjusting as I thought best.
+7. Heavy research into moment.js to figure out how to use setInterval and how to set conditional color functions.
 
 ## Testing
 

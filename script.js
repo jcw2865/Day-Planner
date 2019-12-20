@@ -32,10 +32,134 @@ $(document).ready(function () {
     // END GLOBAL VARIABLES
 
     function updateTime() {
-        var currentDay = $("#currentDay").text(moment());
+        // var currentDay = $("#currentDay").text(moment());
+        var currentDay = $("#currentDay").text(moment().format('dddd, MMM Do YYYY'));
     }
 
     setInterval(updateTime, 1000);
+
+    var currentTime = moment().format('HH');
+    console.log(currentTime);
+
+    // BEGIN COLOR CODE TIME VARIABLES
+    // Color 9am
+    var timeNine = moment('09:00 AM', 'hh:mm A').format('hh:mm A');
+    var milNine = moment("09", "HH").format("HH");
+    $("#timeNine").text(timeNine);
+
+    if (milNine < currentTime) {
+        $("#inputNine").css("background-color", "red")
+    } else if (milNine === currentTime) {
+        $("#inputNine").css("background-color", "gray");
+    } else {
+        $("#inputNine").css("background-color", "green");
+    }
+
+    // Color 10am
+    var timeTen = moment('10:00 AM', 'hh:mm A').format('hh:mm A');
+    var milTen = moment("10", "HH").format("HH");
+    $("#timeTen").text(timeTen);
+
+    if (milTen < currentTime) {
+        $("#inputTen").css("background-color", "red")
+    } else if (milTen === currentTime) {
+        $("#inputTen").css("background-color", "gray");
+    } else {
+        $("#inputTen").css("background-color", "green");
+    }
+
+    // Color 11am
+    var timeEleven = moment('11:00 AM', 'hh:mm A').format('hh:mm A');
+    var milEleven = moment("11", "HH").format("HH");
+    $("#timeEleven").text(timeEleven);
+
+    if (milEleven < currentTime) {
+        $("#inputEleven").css("background-color", "red")
+    } else if (milEleven === currentTime) {
+        $("#inputEleven").css("background-color", "gray");
+    } else {
+        $("#inputEleven").css("background-color", "green");
+    }
+
+    // Color 12pm
+    var timeTwelve = moment('12:00 PM', 'hh:mm A').format('hh:mm A');
+    var milTwelve = moment("12", "HH").format("HH");
+    $("#timeTwelve").text(timeTwelve);
+
+    if (milTwelve < currentTime) {
+        $("#inputTwelve").css("background-color", "red")
+    } else if (milTwelve === currentTime) {
+        $("#inputTwelve").css("background-color", "gray");
+    } else {
+        $("#inputTwelve").css("background-color", "green");
+    }
+
+    // Color 1pm
+    var timeThirteen = moment('01:00 PM', 'hh:mm A').format('hh:mm A');
+    var milThirteen = moment("13", "HH").format("HH");
+    $("#timeThirteen").text(timeThirteen);
+
+    if (milThirteen < currentTime) {
+        $("#inputThirteen").css("background-color", "red")
+    } else if (milThirteen === currentTime) {
+        $("#inputThirteen").css("background-color", "gray");
+    } else {
+        $("#inputThirteen").css("background-color", "green");
+    }
+
+    // Color 2pm
+    var timeFourteen = moment('02:00 PM', 'hh:mm A').format('hh:mm A');
+    var milFourteen = moment("14", "HH").format("HH");
+    $("#timeFourteen").text(timeFourteen);
+
+    if (milFourteen < currentTime) {
+        $("#inputFourteen").css("background-color", "red")
+    } else if (milFourteen === currentTime) {
+        $("#inputFourteen").css("background-color", "gray");
+    } else {
+        $("#inputFourteen").css("background-color", "green");
+    }
+
+    // Color 3pm
+    var timeFifteen = moment('03:00 PM', 'hh:mm A').format('hh:mm A');
+    var milFifteen = moment("15", "HH").format("HH");
+    $("#timeFifteen").text(timeFifteen);
+
+    if (milFifteen < currentTime) {
+        $("#inputFifteen").css("background-color", "red")
+    } else if (milFifteen === currentTime) {
+        $("#inputFifteen").css("background-color", "gray");
+    } else {
+        $("#inputFifteen").css("background-color", "green");
+    }
+
+    // Color 4pm
+    var timeSixteen = moment('04:00 PM', 'hh:mm A').format('hh:mm A');
+    var milSixteen = moment("16", "HH").format("HH");
+    $("#timeSixteen").text(timeSixteen);
+
+    if (milSixteen < currentTime) {
+        $("#inputSixteen").css("background-color", "red");
+    } else if (milSixteen === currentTime) {
+        $("#inputSixteen").css("background-color", "gray");
+    } else {
+        $("#inputSixteen").css("background-color", "green");
+    }
+
+    // Color 5pm
+    var timeSeventeen = moment('05:00 PM', 'hh:mm A').format('hh:mm A');
+    var milSeventeen = moment("17", "HH").format("HH");
+    $("#timeSeventeen").text(timeSeventeen);
+
+    if (milSeventeen < currentTime) {
+        $("#inputSeventeen").css("background-color", "red")
+    } else if (milSeventeen === currentTime) {
+        $("#inputSeventeen").css("background-color", "gray");
+    } else {
+        $("#inputSeventeen").css("background-color", "green");
+    }
+
+    // END COLOR CODE TIME VARIABLES
 
 
     // if (currentDay !== $("#timeNine").text) {
