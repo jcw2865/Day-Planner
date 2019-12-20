@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
-    // localStorage.getItem("input", JSON.parse(input));
-    // var inputNine = localStorage.getItem("inputNine", JSON.parse(inputNine));
+    // BEGIN GLOBAL VARIABLES
+
     var inputNine = localStorage.getItem("inputNine");
     $("#inputNine").val(JSON.parse(inputNine));
 
@@ -29,7 +29,19 @@ $(document).ready(function () {
     var inputSeventeen = localStorage.getItem("inputSeventeen");
     $("#inputSeventeen").val(JSON.parse(inputSeventeen));
 
-    var currentDay = $("#currentDay").text(moment());
+    // END GLOBAL VARIABLES
+
+    function updateTime() {
+        var currentDay = $("#currentDay").text(moment());
+    }
+
+    setInterval(updateTime, 1000);
+
+
+    // if (currentDay !== $("#timeNine").text) {
+    //     $("#inputNine").css("background-color", "red");
+    //     $("#inputNine").css("color", "white");
+    // }
 
 
     // BEGIN SAVE EVENTS
