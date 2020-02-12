@@ -1,4 +1,4 @@
-# Homework-4
+# Day Planner
 
 The purpose of this project was to build a calendar application that allows the user to save events for each hour of the day (between 9am - 5pm). The criteria for a succesful project is as follows:
 
@@ -18,9 +18,9 @@ The deployed project should look like this.
 
 Below is the link to the project repository followed by the link to the live website. 
 
-https://github.com/jcw2865/homework-5
+https://github.com/jcw2865/Day-Planner
 
-https://jcw2865.github.io/homework-5/
+https://jcw2865.github.io/Day-Planner/
 
 ### Development
 
